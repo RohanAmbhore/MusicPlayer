@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 
-class App extends Component {
-    render() {
-        return (
-            <div>
-                Hello
-            </div>
-            );
-    }
+import Header from './components/Header/Header';
+import MainContainer from './containers/HomeContainer/HomeContainer';
+
+function App() {
+    return (
+        <div>
+            <Header></Header>
+            <MainContainer></MainContainer>
+        </div>
+    );
 }
 
 export default App;
